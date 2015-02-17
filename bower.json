@@ -5,7 +5,7 @@
   "authors": [
     "Nick Nance <nance.nick@gmail.com>"
   ],
-  "description": "Dynamically load and unload routes",
+  "description": "Dynamically load and unload Backbone routes",
   "main": "backbone.composer.js",
   "moduleType": [
     "amd"

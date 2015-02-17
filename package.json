@@ -1,7 +1,7 @@
 {
   "name": "backbone.unloader",
   "version": "0.1.0",
-  "description": "Dynamically load and unload routes",
+  "description": "Dynamically load and unload Backbone routes",
   "main": "backbone.unloader.js",
   "scripts": {
     "test": "grunt test"

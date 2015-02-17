@@ -5,7 +5,7 @@ backbone-unloader
 [![Build Status](https://secure.travis-ci.org/nnance/backbone-unloader.png?branch=master)](http://travis-ci.org/nnance/backbone-unloader)
 [![Dependency Status](https://gemnasium.com/nnance/backbone-unloader.svg)](https://gemnasium.com/nnance/backbone-unloader)
 
-Dynamically load and unload routes.  Which provides the ability:
+Dynamically load and unload Backbone routes.  Which provides the ability to:
 * Limit access to routes based on user rights
 * Can be triggered based on events like signoff/signon
 
@@ -57,7 +57,7 @@ Routes can be unloaded dynamically
 var router = Backbone.Router.extend({
   initialize: function(session){
     session.on('logoff', function(){
-    
+
       this.unloadRoutes();
 
     }.bind(this));
