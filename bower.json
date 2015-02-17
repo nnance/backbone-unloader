@@ -1,0 +1,28 @@
+{
+  "name": "backbone.unloader",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nnance/backbone-unloader`",
+  "authors": [
+    "Nick Nance <nance.nick@gmail.com>"
+  ],
+  "description": "Dynamically load and unload routes",
+  "main": "backbone.composer.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "Backbone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "backbone": "~1.1.2"
+  }
+}

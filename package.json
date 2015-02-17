@@ -1,0 +1,38 @@
+{
+  "name": "backbone.unloader",
+  "version": "0.1.0",
+  "description": "Dynamically load and unload routes",
+  "main": "backbone.unloader.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nnance/backbone-unloader.git"
+  },
+  "keywords": [
+    "Backbone"
+  ],
+  "author": "Nick Nance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nnance/backbone-unloader/issues"
+  },
+  "homepage": "https://github.com/nnance/backbone-unloader",
+  "dependencies": {
+    "backbone": ">=0.9.9 <=1.1.2",
+    "underscore": ">=1.4.0 <=1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "chai-backbone": "^0.9.2",
+    "chai-jquery": "^2.0.0",
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-mocha-phantomjs": "^0.6.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  }
+}
