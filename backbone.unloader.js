@@ -7,7 +7,7 @@
 
   // Check for AMD.
   if (typeof define === 'function' && define.amd) {
-    define(['underscore', 'backbone', 'exports']);
+    define(['underscore', 'backbone'], factory);
   }
 
   // Next for Node.js or CommonJS.
